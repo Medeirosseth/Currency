@@ -35,7 +35,7 @@ _This application is used to demonstrate the understanding of APIs using Exchang
 5. to get a API KEY go to https://www.exchangerate-api.com/ and navigate API instructions
 6. copy and paste API KEY to your .env file - API_KEY = APIKEYNUMBER
 7. To start a development server and view the project in the browser:
-   - Navigate to `currencye/` in your command line
+   - Navigate to `currency/` in your command line
    - Run the command `npm install` to install dependencies
    - Optionally, run the commmand `npm run build` to make a bundle of the files
    - Finally, run the command `npm run start` to start a development server
