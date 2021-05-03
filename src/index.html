@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TITLE</title>
+</head>
+</html>
+<body>
+  <h1> CURRENCY EXCHANGER</h1>
+  <div class="container" id="box">
+    <form id="formOne">
+      <input type="number" id="currencyFrom" placeholder="US Dollars" value="1">
+      <select name="converter" id="to">
+        <option value="USD" selected >United States(USA)</option>
+        <option value="EUR" >Euro (EUR)</option>
+        <option value="INR" >Indian Rupee (INR)</option>
+        <option value="JPY" >Japanese Yen (JPY)</option>
+        <option value="AED" >United Arab Emirates Dirham (AED)</option>
+        <option value="AFN" >Afghan Afghani (AFN)</option>
+        <option value="GBP" >Great British Pound (GBP)</option>
+      </select>
+       <br>
+      <input type="number" id="currencyTo" placeholder="US Dollars" disabled>
+      <select name="converter" id="from">
+        <option value="USA" >United States(USA)</option>
+        <option value="EUR" selected >Euro (EUR)</option>
+        <option value="INR" >Indian Rupee (INR)</option>
+        <option value="JPY" >Japanese Yen (JPY)</option>
+        <option value="AED" >United Arab Emirates Dirham (AED)</option>
+        <option value="AFN" >Afghan Afghani (AFN)</option>
+        <option value="GBP" >Great British Pound (GBP)</option>
+       </select>
+      <br>
+      <button type="button" id="convert" class="btn">Submit</button>
+    </form>
+    <p id="showResult"></p>
+    <p id="showErrors"></p>
+  </div>
+
+</body>
+</html>
